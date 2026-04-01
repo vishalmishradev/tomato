@@ -24,7 +24,7 @@ const Price = ({price, id, options}:prop) => {
 
   return (
     <div className='flex flex-col gap-4'>
-      <h2 className='font-bold text-2xl'>{total.toFixed(2)}</h2>
+      <h2 className='font-bold text-2xl'>$ {total.toFixed(2)}</h2>
       {/*Option container */}
       <div className="flex gap-4">
         {options?.map((option, index) =>(
